@@ -135,7 +135,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .envrc
 .venv
 env/
@@ -205,3 +204,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# AAOSA Demo specific
+.env
+*.json
+temp/
+logs/
+*.png
+*.jpg
+*.svg
+results/
+aaosa_demo_results.json
+
+# API Keys and sensitive data
+config.yaml
+secrets.yaml
+credentials.json
+
+# Visualization outputs
+plots/
+charts/
+visualizations/
